@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding:0;
+}
+ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery {
+	width: 100%;
+}
+li {
+	width: 32%;
+}
+img {
+	width: 92%;
+	padding: 2%;
+	margin: 2%;
+	border: 1px solid gainsboro;
+	box-shadow: 1px 1px 9px grey;
+}
