@@ -2,6 +2,15 @@
 	margin: 0;
 	padding:0;
 }
+body {
+	font-size: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+	body {
+	 font-size: 16px
+	}
+  }
 ul {
 	list-style: none;
 	display: flex;
@@ -11,7 +20,7 @@ ul {
 	width: 100%;
 }
 li {
-	width: 32%;
+	width: 33%;
 }
 img {
 	width: 92%;
@@ -19,4 +28,15 @@ img {
 	margin: 2%;
 	border: 1px solid gainsboro;
 	box-shadow: 1px 1px 9px grey;
+}
+
+p {
+    margin: 20px 0px 0 20px;
+    font-size: 1em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 10px;
 }
